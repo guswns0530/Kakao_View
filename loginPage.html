@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakao | Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <section id="login_popup">
+        <div class="lp_logo">
+            <img src="./image/kakao.svg" alt="">
+        </div>
+        <form action="./login" method="POST" id="lp_form">
+            <div class="input_box">
+                <input type="text" name="id" id="lp_id" placeholder="아이디" required>
+                <input type="password" name="pwd" id="lp_pwd" placeholder="비밀번호" required>
+            </div>
+            <input type="submit" value="로그인" id="lp_submit">
+            <div class="line_or">
+                <div>또는</div>
+            </div>
+            <a href="/auth/kakao" class="login_kakao">kakao 계정으로 로그인</a>
+        </form>
+
+        <div class="account">
+            <a href="">회원가입</a>
+            <div class="account_more">
+                <a href="">카카오계정</a>
+                <div></div>
+                <a href="">비밀번호 찾기</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

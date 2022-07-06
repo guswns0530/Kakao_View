@@ -1,0 +1,38 @@
+[
+    {
+        "userId": "0",
+        "name": "java",
+        "message": "안녕 만나서 반가워",
+        "image": "/image/java.png"
+    },
+    {
+        "userId": "1",
+        "name": "PHP",
+        "message": "안녕",
+        "image": "/image/php.png"
+    },
+    {
+        "userId": "2",
+        "name": "JSP&Servlet",
+        "message": "안녕",
+        "image": "/image/jsp.png"
+    },
+    {
+        "userId": "4",
+        "name": "HTML/CSS",
+        "message": "안녕",
+        "image": "/image/html.png"
+    },
+    {
+        "userId": "5",
+        "name": "ES6",
+        "message": "반가워",
+        "image": "/image/js.png"
+    },
+    {
+        "userId": "6",
+        "name": "NODEJS",
+        "message": "잘지내",
+        "image": "/image/node.png"
+    }
+]

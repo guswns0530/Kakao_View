@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <nav>
+    <ul class="main_nav">
+      <li>
+        <a href="#" class="select">
+          <i class="material-icons" id="nav_1">person</i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="">
+          <i class="material-icons" id="nav_2"
+            >chat_bubble
+            <div class="alert">1</div>
+          </i>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="sub_nav">
+      <li>
+        <a href="/auth/logout">
+          <i class="material-icons"> settings </i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container friends">
+    <header>
+      <h2>친구</h2>
+      <ul class="h_nav">
+        <li>
+          <a href="#">
+            <i class="material-icons">search</i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="material-icons">person_add</i>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <section>
+      <div class="profile">
+        <div class="image">
+          <img src="./image/profile.png" alt="" />
+        </div>
+        <div class="context">
+          <div class="name">현준</div>
+          <div class="msg">
+            안녕하세요 양영디지털 고등학교에 재학중인 박현준이라고 합니다.
+          </div>
+        </div>
+      </div>
+
+      <ul>
+        <div class="disable_box">
+          <div class="content">
+            <div class="name">친구</div>
+            <div class="for"></div>
+          </div>
+        </div>
+        <!-- <li>
+                <div class="profile">
+                    <div class="image">
+                        <img src="./image/profile.png" alt="">
+                    </div>
+                    <div class="context">
+                        <div class="name">현준</div>
+                        <div class="msg">안녕</div>
+                    </div>
+                </div>
+            </li> -->
+      </ul>
+    </section>
+  </div>
+
+  <div class="container rooms" style="display: none">
+    <header>
+      <h2>채팅</h2>
+      <ul class="h_nav">
+        <li>
+          <a href="#">
+            <i class="material-icons">search</i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="material-icons">add_comment</i>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <section>
+      <ul>
+        <li>
+          <div class="profile">
+            <div class="image">
+              <img src="./image/profile.png" alt="" />
+            </div>
+            <div class="context">
+              <div class="name">현준</div>
+              <div class="msg">
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라
+                만세동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라
+                만세동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라
+                만세동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라
+                만세동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라
+                마르고 닳도록 하느님이 보우하사 우리나라 만세동해물과 백두산이
+                마르고 닳도록 하느님이 보우하사 우리나라 만세동해물과 백두산이
+                마르고 닳도록 하느님이 보우하사 우리나라 마르고 닳도록 하느님이
+                보우하사 우리나라 만세동해물과 백두산이 마르고 닳도록 하느님이
+                보우하사 우리나라 만세동해물과 백두산이 마르고 닳도록 하느님이
+                보우하사 우리나라 만세
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div id="popup" style="display: block; width: 100vw; height: 100vh;">
+    <header>
+      <div class="h">
+        <div class="image">
+          <img src="./image/profile.png" alt="" />
+        </div>
+
+        <div class="p_name">현준</div>
+
+        <div class="tab"> <!-- class css-none -->
+          <div class="full_screen none">
+  
+          </div>
+          <div class="min_screen">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="exit">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="chat_log">
+        <div class="chat you">
+          <div class="c_pro">
+            <div class="image">
+              <img src="./image/profile.png" alt="" />
+            </div>
+            <div class="name">현준</div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span> s </span>
+              <div class="chat_info">
+                aasd
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chat me">
+          <div class="chat_block">
+            <div class="chat_content">
+              <span>
+                안녕ㅁㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴㄴasdsdasaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssssss
+              </span>
+              <div class="chat_info">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="chat me">
+          <div class="chat_block">
+            <div class="chat_content">
+              <span>d</span>
+            </div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span
+                >sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</span
+              >
+            </div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span>d</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat you">
+          <div class="c_pro">
+            <div class="image">
+              <img src="./image/profile.png" alt="" />
+            </div>
+            <div class="name">현준</div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span>
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
+              </span>
+            </div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span>
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
+              </span>
+            </div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span> s </span>
+            </div>
+          </div>
+        </div>
+        <div class="chat you">
+          <div class="c_pro">
+            <div class="image">
+              <img src="./image/profile.png" alt="" />
+            </div>
+            <div class="name">현준</div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span>
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
+              </span>
+            </div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span>
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세
+              </span>
+            </div>
+          </div>
+          <div class="chat_block">
+            <div class="chat_content">
+              <span> s </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <form action="">
+          <textarea name="" id=""></textarea>
+          <button class="able">전송</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import App from './js/app.js'
+
+    const app = new App()
+
+    window.app = app
+  </script>
+
+  <body></body>
+</html>
