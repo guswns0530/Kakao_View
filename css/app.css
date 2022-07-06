@@ -512,18 +512,30 @@ header > .h {
 
 .chat_info {
   position: absolute;
+  width: 50px;
+}
+.chat_data {
+  font-size: 10px;
+  color: #595462;
+}
+.chat_read {
+  font-size: 10px;
+  color: #ffeb33;
+  transform: translateY(30%);
 }
 
 .you .chat_info {
-  right: 0;
+  right: -3px;
   bottom: 0;
   transform: translateX(100%);
+  text-align: left;
 }
 
 .me .chat_info {
-  left: 0;
+  left: -3px;
   bottom: 0;
   transform: translateX(-100%);
+  text-align: right;
 }
 
 .me .chat_block {
